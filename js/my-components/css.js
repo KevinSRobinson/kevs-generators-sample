@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "411812d78b4a31f5a5e2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "408e784d961d6740312d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -716,13 +716,13 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/public/assets/";
+/******/ 	__webpack_require__.p = "/public/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(25)(__webpack_require__.s = 25);
+/******/ 	return hotCreateRequire(27)(__webpack_require__.s = 27);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1025,10 +1025,10 @@ exports.push([module.i, ".fa-border {\n  padding: .2em .25em .15em;\n  border: s
 
 /***/ }),
 
-/***/ 25:
+/***/ 27:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(36);
+__webpack_require__(37);
 
 /***/ }),
 
@@ -1039,7 +1039,7 @@ module.exports = __webpack_require__.p + "674f50d287a8c48dc19ba404d20fe713.eot";
 
 /***/ }),
 
-/***/ 36:
+/***/ 37:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag

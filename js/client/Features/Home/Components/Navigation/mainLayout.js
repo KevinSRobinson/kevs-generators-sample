@@ -3,7 +3,7 @@ var mainLayout = {
     allowChanges: '@'
   },
   controllerAs: 'vm',
-  templateUrl: './src/Client/Features/Navigation/Components/mainLayoutTemplate.html',
+  template: require('raw-loader!./mainLayoutTemplate.html'),
   controller: function () {
     var vm = this;
 

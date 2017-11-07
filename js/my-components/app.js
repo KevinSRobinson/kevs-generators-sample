@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "411812d78b4a31f5a5e2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "408e784d961d6740312d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -716,13 +716,13 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/public/assets/";
+/******/ 	__webpack_require__.p = "/public/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(37)(__webpack_require__.s = 37);
+/******/ 	return hotCreateRequire(38)(__webpack_require__.s = 38);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -1159,10 +1159,10 @@ exports.push([module.i, ".ace_editor {\n  height: 200px;\n}\n", ""]);
 /* 34 */,
 /* 35 */,
 /* 36 */,
-/* 37 */
+/* 37 */,
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(38);
 __webpack_require__(39);
 __webpack_require__(40);
 __webpack_require__(41);
@@ -1171,6 +1171,7 @@ __webpack_require__(43);
 __webpack_require__(44);
 __webpack_require__(45);
 __webpack_require__(46);
+__webpack_require__(47);
 
 
 angular.module('my-angular-components', [ 'ngAnimate',
@@ -1183,41 +1184,41 @@ angular.module('my-angular-components', [ 'ngAnimate',
 'ngFabForm',
 'ui.grid']);
 
-__webpack_require__(47);
-
 __webpack_require__(48);
-__webpack_require__(50);
-__webpack_require__(52)
 
-__webpack_require__(54);
-__webpack_require__(56);
-__webpack_require__(58)
-__webpack_require__(60);
+__webpack_require__(49);
+__webpack_require__(51);
+__webpack_require__(53)
 
-__webpack_require__(62);
-__webpack_require__(64);
-__webpack_require__(66);
-__webpack_require__(68);
+__webpack_require__(55);
+__webpack_require__(57);
+__webpack_require__(59)
+__webpack_require__(61);
 
+__webpack_require__(63);
+__webpack_require__(65);
+__webpack_require__(67);
 __webpack_require__(69);
-__webpack_require__(71);
-__webpack_require__(73);
-__webpack_require__(75);
-__webpack_require__(77);
-__webpack_require__(79);
-__webpack_require__(81);
 
-__webpack_require__(83);
-__webpack_require__(85);
+__webpack_require__(70);
+__webpack_require__(72);
+__webpack_require__(74);
+__webpack_require__(76);
+__webpack_require__(78);
+__webpack_require__(80);
+__webpack_require__(82);
 
-__webpack_require__(87);
-__webpack_require__(89);
-__webpack_require__(91);
-__webpack_require__(93);
-__webpack_require__(95);
+__webpack_require__(84);
+__webpack_require__(86);
+
+__webpack_require__(88);
+__webpack_require__(90);
+__webpack_require__(92);
+__webpack_require__(94);
+__webpack_require__(96);
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1243,7 +1244,7 @@ if(true) {
 }
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1269,7 +1270,7 @@ if(true) {
 }
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1295,7 +1296,7 @@ if(true) {
 }
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1321,7 +1322,7 @@ if(true) {
 }
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1347,7 +1348,7 @@ if(true) {
 }
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1373,7 +1374,7 @@ if(true) {
 }
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1399,7 +1400,7 @@ if(true) {
 }
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1425,7 +1426,7 @@ if(true) {
 }
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1451,7 +1452,7 @@ if(true) {
 }
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports) {
 
 var cssClassService =  function () {
@@ -1482,7 +1483,7 @@ var cssClassService =  function () {
 angular.module("my-angular-components").factory("cssClassService", cssClassService);
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myButton = {
@@ -1598,20 +1599,20 @@ var myButton = {
 
 
     },
-    template : __webpack_require__(49)
+    template : __webpack_require__(50)
 };
 
 angular.module('my-angular-components').component('myButton', myButton);
 
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='{{vm.getClass()}} {{vm.getSizeClass()}}' id='{{vm.id}}' ng-click='vm.click()'>\r\n    <!--Button Inner Text-->\r\n    {{vm.getText()}}\r\n    <!--Font Awesome Icon-->\r\n    <i style=\"margin-left:15px\" class='{{vm.getIcon()}}'></i>\r\n</div>"
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var mySpinnerButton = {
@@ -1634,7 +1635,7 @@ var mySpinnerButton = {
              vm.isDisabled = false;
         };       
     },
-    template:__webpack_require__(51)
+    template:__webpack_require__(52)
 };
 
 
@@ -1645,13 +1646,13 @@ angular.module('my-angular-components').component('mySpinnerButton', mySpinnerBu
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports) {
 
 module.exports = "<button id='{{vm.id}}' class=\"btn btn-success\" ng-click='vm.click()'  ng-disabled=\"vm.isDisabled\">\r\n     <!--Button Inner Text-->\r\n     {{vm.buttonText}}  \r\n      <!--Font Awesome Icon-->\r\n     <i class='fa fa-circle-o-notch fa-spin' ng-if=\"vm.saving\"></i>\r\n</div>\r\n"
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -1754,7 +1755,7 @@ var buildList = function () {
         vm.init();
 
     },
-    template:__webpack_require__(53)
+    template:__webpack_require__(54)
     
 };
 
@@ -1763,13 +1764,13 @@ myCategorySelect.$inject = ['$scope'];
 angular.module('my-angular-components').component('myCategorySelect', myCategorySelect);
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='form-group'>\r\n    <label class='control-label' style='min-width: 110px; text-align: left'>{{vm.fieldLabel}}</label>\r\n    <select ng-model='vm.selected' class='form-control'>\r\n            <option ng-repeat='category in vm.cats'   value='{{category}}' >{{category}}</option>\r\n        </select>\r\n</div>\r\n"
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myFilterTextbox = {
@@ -1789,7 +1790,7 @@ var myFilterTextbox = {
 
 
     },
-    template:__webpack_require__(55)
+    template:__webpack_require__(56)
 };
 
 
@@ -1797,13 +1798,13 @@ angular.module('my-angular-components').component('myFilterTextbox', myFilterTex
 
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='input-group' style='display: flex'>\r\n    <input type='text' ng-model='vm.ngModel' placeholder='{{vm.placeholder}}' id='{{vm.fieldName}}' class='form-control' />\r\n    <button class='btn btn-default' class='input-group-btn' id='searchFilter'> \r\n     <i class='glyphicon glyphicon-search'></i> </button>\r\n</div>"
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myPageTitle = {
@@ -1821,20 +1822,20 @@ var myPageTitle = {
             return " " + vm.icon;
         };
     },
-    template:__webpack_require__(57)    
+    template:__webpack_require__(58)    
 };
 
 angular.module('my-angular-components').component('myPageTitle', myPageTitle);
 
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports) {
 
 module.exports = "<H1 id='pageTitle'>\r\n    <i class=\"fa fa-users\"></i>\r\n    {{vm.text}}\r\n</H1>\r\n<hr>"
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -1883,7 +1884,7 @@ var myDateField = {
         };
 
     },
-    template:__webpack_require__(59)    
+    template:__webpack_require__(60)    
 };
 
 myDateField.$inject = ['cssClassService'];
@@ -1893,13 +1894,13 @@ var app = angular.module('my-angular-components')
 
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports) {
 
 module.exports = "<style>\r\n    .popover {\r\n        min-width: 200px;\r\n    }\r\n    \r\n    .input-group {\r\n        width: 40% !important;\r\n    }\r\n\r\n</style>\r\n<div class=\"form-group\">\r\n    <!--field label-->\r\n    <label ng-class=\"vm.cssClassService.getlabelClass(vm.horizontal, vm.labelWidth)\" for=\"vm.fieldName\">{{vm.fieldLabel}}</label>\r\n    <div ng-class=\"vm.cssClassService.getInputClass(vm.horizontal, vm.inputWidth)\">\r\n        <!--Input-->\r\n        <div ng-if=\"!vm.readOnly\" class=\"input-group\">\r\n            <!--DatePicker-->\r\n            <input type=\"text\" class=\"form-control\" uib-datepicker-popup=\"{{vm.format}}\" ng-model=\"vm.ngModel\" is-open=\"vm.isOpened\"\r\n                datepicker-options=\"vm.dateOptions\" ng-required=\"true\" close-text=\"Close\" alt-input-formats=\"altInputFormats\"\r\n            />\r\n            <!--DatePicker Open Button-->\r\n            <span class=\"input-group-btn\">\r\n                <button type=\"button\" class=\"btn btn-default\" ng-click=\"vm.open()\"><i class=\"fa fa-bars\"></i></button>\r\n            </span>\r\n            <!--ToolTip-->\r\n            <span ng-show=\"vm.tooltip!==''\" class=\"input-group-addon\" uib-popover=\"{{vm.tooltip}}\" popover-title=\"Info\" popover-class=\"popover\"\r\n                popover-trigger=\"'mouseenter'\"><i class=\"fa fa-info\"></i>\r\n            </span>\r\n        </div>\r\n        <!--Read Only display-->\r\n        <div ng-show=\"vm.readOnly\">\r\n            {{vm.ngModel | date}}\r\n        </div>\r\n        <!--HelpText-->\r\n        <p class=\"help-block\">{{vm.helpText}}</p>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -1940,7 +1941,7 @@ var myDateTimeDifferenceField = {
         }
 
     },
-    template:__webpack_require__(61)        
+    template:__webpack_require__(62)        
 };
 
 
@@ -1948,13 +1949,13 @@ angular.module('my-angular-components').component('myDateTimeDifferenceField', m
 
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = "<my-input-field input-type=\"time\" field-label=\"From\"  ng-model=\"vm.fromDate\" ng-change=\"vm.fromTimeChanged()\" hour-step=\"vm.hourStep\" minute-step=\"vm.minStep\" show-meridian=\"vm.showMeridian\"></my-input-field>\r\n\r\n<my-input-field input-type=\"time\" field-label=\"To\"  ng-model=\"vm.toDate\" ng-change=\"vm.toTimeChanged()\" hour-step=\"vm.hourStep\" minute-step=\"vm.minStep\" show-meridian=\"vm.showMeridian\"></my-input-field>\r\n"
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myInputField = {
@@ -2031,7 +2032,7 @@ var myInputField = {
 
 
     },
-    template:__webpack_require__(63)            
+    template:__webpack_require__(64)            
 };
 
 myInputField.$inject = ['cssClassService'];
@@ -2040,13 +2041,13 @@ angular.module('my-angular-components').component('myInputField', myInputField);
 
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports) {
 
 module.exports = "<style>\r\n    .popover {\r\n        min-width: 200px;\r\n    }\r\n    \r\n    .input-group {\r\n        width: 100% !important;\r\n    }\r\n    \r\n    .input-group .form-control {\r\n        z-index: 100;\r\n    }\r\n</style>\r\n<div class=\"form-group\">\r\n    <!--field label-->\r\n    <label ng-class=\"vm.cssClassService.getlabelClass(vm.horizontal, vm.labelWidth)\" for=\"vm.fieldName\">{{vm.fieldLabel}}       \r\n    </label>\r\n    <div ng-class=\"vm.cssClassService.getInputClass(vm.horizontal, vm.inputWidth)\">\r\n        <!--Input Types-->\r\n        <div ng-if=\"!vm.readOnly\" class=\"input-group\">\r\n            <!--TextBox-->\r\n            <input ng-if=\"vm.inputType==='textbox'\" ng-model=\"vm.ngModel\" type=\"text\" class=\"form-control\" id=\"{{vm.fieldName}}\" placeholder=\"{{vm.placeholder}}\"\r\n                required=\"true\">\r\n             <!--Number-->\r\n            <input  ng-if=\"vm.inputType==='number'\" ng-model=\"vm.ngModel\" type=\"number\"  class=\"form-control\" id=\"{{vm.fieldName}}\"               required=\"true\">\r\n            <!--Email-->\r\n            <input ng-if=\"vm.inputType==='email'\" type=\"email\" class=\"form-control\" id=\"vm.fieldName\" placeholder=\"{{vm.placeholder}}\">\r\n            <!--TextArea-->\r\n            <textarea ng-if=\"vm.inputType==='textarea'\" class=\"form-control\" id=\"vm.fieldName\" ng-model=\"vm.ngModel\" placeholder=\"{{vm.placeholder}}\"></textarea>\r\n            <!--CheckBox-->\r\n            <input ng-if=\"vm.inputType==='checkbox'\" type=\"checkbox\" id=\"vm.fieldName\" ng-model=\"vm.ngModel\" />\r\n            <!--Time-->\r\n            <div ng-if=\"vm.inputType==='time'\" uib-timepicker ng-model=\"vm.ngModel\"  id=\"vm.fieldName\"    ng-change=\"vm.changed()\" hour-step=\"vm.hourStep\" minute-step=\"vm.minStep\" show-meridian=\"vm.showMeridian\">\r\n            <!--Date-->\r\n            <span ng-if=\"vm.inputType==='datepopup'\">\r\n                <input type=\"text\" class=\"form-control\" uib-datepicker-popup=\"{{vm.format}}\"\r\n                 ng-model=\"vm.ngModel\" is-open=\"vm.isOpened\" style=\"width: 82%\"\r\n                datepicker-options=\"vm.dateOptions\" ng-required=\"true\" close-text=\"Close\" alt-input-formats=\"altInputFormats\">\r\n                 <span class=\"btn btn-default\" ng-click=\"vm.open()\"><i class=\"fa fa-bars\"></i></span>\r\n            </span>\r\n            <!--DatePicker Open Button-->\r\n            </span>\r\n            <span ng-show=\"vm.tooltip!==''\" class=\"input-group-addon\" uib-popover=\"{{vm.tooltip}}\" popover-title=\"Info\" popover-class=\"popover\"\r\n                popover-trigger=\"'mouseenter'\"><i class=\"fa fa-info\"></i>\r\n            </span>\r\n        </div>\r\n        <!--Read Only display-->\r\n        <div ng-show=\"vm.readOnly\">\r\n            <p ng-if=\"vm.inputType!=='checkbox'\">{{vm.ngModel}}</p>\r\n            <i ng-if=\"vm.inputType==='checkbox'\" ng-show='vm.ngModel' class='fa fa-check fa-2x'></i>\r\n        </div>\r\n        <!--HelpText-->\r\n        <p class=\"help-block\">{{vm.helpText}}</p>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var mySelectField = {
@@ -2095,7 +2096,7 @@ var mySelectField = {
 
 
     },
-    template:__webpack_require__(65)        
+    template:__webpack_require__(66)        
 };
 
 mySelectField.$inject = ['cssClassService'];
@@ -2105,13 +2106,13 @@ angular.module('my-angular-components').component('mySelectField', mySelectField
 
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports) {
 
 module.exports = "<style>\r\n    .popover {\r\n        min-width: 200px;\r\n    }\r\n    \r\n    .input-group {\r\n        width: 100% !important;\r\n    }\r\n\r\n</style>\r\n<div class=\"form-group\">\r\n{{vm.cssClassService.getlabelClass(vm.horizontal, vm.labelWidth)}}\r\n\r\n    <!--field label-->\r\n    <label ng-class=\"vm.cssClassService.getlabelClass(vm.horizontal, vm.labelWidth)\" for=\"vm.fieldName\">{{vm.fieldLabel}}</label>\r\n    <div ng-class=\"vm.cssClassService.getInputClass(vm.horizontal, vm.inputWidth)\">\r\n        <!--Input Types-->\r\n        <div ng-if=\"!vm.readOnly\" class=\"input-group\">\r\n            <ui-select ng-if=\"vm.inputType==='tags'\" multiple ng-model=\"vm.ngModel\" theme=\"bootstrap\">\r\n                <ui-select-match placeholder=\"Select a Tag...\">{{$item.name}}</ui-select-match>\r\n                <ui-select-choices repeat=\"item in (vm.items | filter: $select.search) track by item.id\">\r\n                    <span ng-bind=\"item.name\"></span>\r\n                </ui-select-choices>\r\n            </ui-select>\r\n            <select ng-if=\"vm.inputType==='combobox'\" size=\"vm.size\" multiple=\"vm.multiSelect\" ng-model='vm.ngModel' class='form-control'\r\n                id='{{vm.fieldName}}'>\r\n                <option ng-repeat='option in vm.items' ng-value='{{option.id}}'>{{option.name}}</option>\r\n            </select>\r\n            <span ng-show=\"vm.tooltip!==''\" class=\"input-group-addon\" uib-popover=\"{{vm.tooltip}}\" popover-title=\"Info\" popover-class=\"popover\"\r\n                popover-trigger=\"'mouseenter'\"><i class=\"fa fa-info\"></i>\r\n            </span>\r\n        </div>\r\n        <!--Read Only display-->\r\n        <div ng-show=\"vm.readOnly\">\r\n            <span ng-repeat=\"tag in vm.items\" class=\"badge\">\r\n                {{tag.name}}\r\n            <span>\r\n        </div>\r\n \r\n        <!--HelpText-->\r\n        <p class=\"help-block\">{{vm.helpText}}</p>\r\n    </div>\r\n</div>\r\n\r\n"
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myRichTextEditor = {
@@ -2129,7 +2130,7 @@ var myRichTextEditor = {
             firstLineNumber: 5,
         };
     },
-    template:__webpack_require__(67)            
+    template:__webpack_require__(68)            
 };
 
 
@@ -2137,13 +2138,13 @@ angular.module('my-angular-components').component('myRichTextEditor', myRichText
 
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports) {
 
 module.exports = "<div ui-ace=\"vm.options\" ng-model=\"vm.ngModel\">\r\n</div>\r\n\r\n"
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports) {
 
 angular.module('my-angular-components').directive('markdown', function () {
@@ -2165,7 +2166,7 @@ angular.module('my-angular-components').directive('markdown', function () {
 
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var adminLayout = {
@@ -2211,7 +2212,7 @@ var adminLayout = {
                 return "uiView";
         };
     },
-    template:__webpack_require__(70)       
+    template:__webpack_require__(71)       
 };
 
 adminLayout.$inject = ['$scope'];
@@ -2220,13 +2221,13 @@ angular.module('my-angular-components').component('adminLayout', adminLayout);
 
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = "<style>\r\n.uiViewColapsed{\r\n    margin-right:20px;\r\n    margin-left:23px;\r\n    padding-left:200px;\r\n    padding-right:10px;\r\n}\r\n.uiView{\r\n    margin-right:20px;\r\n    margin-left:2px;\r\n    padding-left:10px;\r\n    padding-right:15px;\r\n}\r\n</style>\r\n<div id=\"page-wrapper\" ng-cloak ng-class=\"vm.getState()\">\r\n    <!-- Sidebar -->\r\n    <div id=\"sidebar-wrapper\">\r\n        <admin-side-menu colapsed=\"vm.colapsed\" footer-links=\"vm.footerLinks\" side-menu-items=\"vm.sideMenuItems\"></admin-side-menu>\r\n    </div>\r\n    <div id=\"content-wrapper\">\r\n        <div class=\"page-content\">\r\n           \r\n            <admin-header-bar title=\"Timebanking\" alert-menu-items=\"vm.alertMenuItems\" user-menu-items=\"vm.userMenuItems\" user-name=\"{{vm.userName}}\">\r\n            </admin-header-bar> \r\n\r\n            <div ng-class=\"vm.getViewCssClass()\">\r\n                <ng-transclude></ng-transclude>\r\n            </div>\r\n            \r\n        </div>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var alertsDropDownMenu = {
@@ -2234,7 +2235,7 @@ var alertsDropDownMenu = {
         menuItems:'=',
     },
     controllerAs: 'vm',
-    template:__webpack_require__(72)       
+    template:__webpack_require__(73)       
 };
 
 
@@ -2242,13 +2243,13 @@ angular.module('my-angular-components').component('alertsDropDownMenu', alertsDr
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"item dropdown\" uib-dropdown>\r\n    <a href=\"#\" class=\"dropdown-toggle\" uib-dropdown-toggle>\r\n        <i class=\"fa fa-bell\"></i>\r\n    </a>\r\n    <ul class=\"dropdown-menu dropdown-menu-right\">\r\n        <li class=\"dropdown-header\">\r\n            Alerts\r\n        </li>\r\n        <li class=\"divider\"></li>\r\n        <li ng-repeat=\"item in vm.menuItems\">\r\n            <div class=\"row\">\r\n                <i class=\"fa fa-{{item.icon}} col-md-3\" style=\"margin:0\"></i>\r\n                <a ui-sref=\"{{item.state}}\" class=\"col-md-8\">                \r\n                    {{item.linkText}}  \r\n                </a>\r\n            </div>\r\n        </li>\r\n    </ul>\r\n</div>\r\n"
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var adminHeaderBar = {
@@ -2261,20 +2262,20 @@ var adminHeaderBar = {
         userName: '@'
     },
     controllerAs: 'vm',
-    template:__webpack_require__(74)           
+    template:__webpack_require__(75)           
 };
 
 
 angular.module('my-angular-components').component('adminHeaderBar', adminHeaderBar);
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports) {
 
 module.exports = "<style>\r\n.uiViewColapsed{\r\n    margin-left:10px;\r\n}\r\n.uiView{\r\n    margin-left:120px;\r\n}\r\n</style>\r\n<div class=\"row header\">\r\n    <div class=\"col-xs-12\">\r\n        <div class=\"user pull-right\">\r\n            <div class=\"item dropdown\" uib-dropdown>\r\n                <user-options-drop-down-menu menu-items=\"vm.userMenuItems\" user-name=\"{{vm.userName}}\"></user-options-drop-down-menu>\r\n            </div>-->\r\n            <!-- <!--<div class=\"item dropdown\" uib-dropdown>\r\n                <alerts-drop-down-menu menu-items=\"vm.alertMenuItems\"></alerts-drop-down-menu>\r\n            </div> -->\r\n        </div>\r\n        <div class=\"meta\">\r\n            <div class=\"page\">\r\n                {{vm.title}}\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var userOptionsDropDownMenu = {
@@ -2291,7 +2292,7 @@ var userOptionsDropDownMenu = {
        
 
     },
-    template:__webpack_require__(76)           
+    template:__webpack_require__(77)           
 };
 
 
@@ -2299,13 +2300,13 @@ angular.module('my-angular-components').component('userOptionsDropDownMenu', use
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"item dropdown\" uib-dropdown>\r\n    <a href=\"#\" class=\"dropdown-toggle\" uib-dropdown-toggle>\r\n        <i class=\"fa fa-user\"></i>\r\n    </a>\r\n    <ul class=\"dropdown-menu dropdown-menu-right\">\r\n        <li class=\"dropdown-header\">\r\n            {{vm.userName}}\r\n        </li>\r\n        <li class=\"divider\"></li>\r\n        <li ng-repeat=\"item in vm.menuItems\">\r\n            <div class=\"row\">\r\n                <i class=\"fa fa-{{item.icon}} col-md-3\" style=\"margin:0\"></i>\r\n                <a ui-sref=\"{{item.state}}\" class=\"col-md-8\">                \r\n                    {{item.linkText}}  \r\n                </a>\r\n            </div>\r\n        </li>\r\n    </ul>\r\n</div>\r\n"
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var adminSideMenu = {
@@ -2332,7 +2333,7 @@ var adminSideMenu = {
         };
 
     },
-    template:__webpack_require__(78)       
+    template:__webpack_require__(79)       
 };
 
 
@@ -2340,13 +2341,13 @@ angular.module('my-angular-components').component('adminSideMenu', adminSideMenu
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports) {
 
 module.exports = "<ul class=\"sidebar\">\r\n    <li class=\"sidebar-main\">\r\n        <a ng-click=\"vm.toggleSidebar()\">\r\n            Dashboard\r\n            <span class=\"fa fa-switch\"></span>\r\n          </a>\r\n    </li>\r\n    <admin-side-menu-items menu-items=\"vm.sideMenuItems\"></admin-side-menu-items>\r\n</ul>\r\n<side-menu-footer links=\"vm.footerLinks\"></side-menu-footer>\r\n"
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var sideMenuFooter = {
@@ -2354,7 +2355,7 @@ var sideMenuFooter = {
         links: '='
     },
     controllerAs: 'vm',
-    template:__webpack_require__(80)       
+    template:__webpack_require__(81)       
 };
 
 
@@ -2362,13 +2363,13 @@ angular.module('my-angular-components').component('sideMenuFooter', sideMenuFoot
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"sidebar-footer\">\r\n    <div class=\"col-xs-4\">\r\n        <a state=\"vm.links[0].state\" >\r\n            {{vm.links[0].linkText}}\r\n          </a>\r\n    </div>\r\n    <div class=\"col-xs-4\">\r\n        <a state=\"vm.links[1].state\" >\r\n            {{vm.links[1].linkText}}\r\n          </a>\r\n    </div>\r\n    <div class=\"col-xs-4\">\r\n         <a state=\"vm.links[2].state\" >\r\n            {{vm.links[2].linkText}}\r\n          </a>\r\n    </div>\r\n</div>"
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var adminSideMenuItems = {
@@ -2391,7 +2392,7 @@ var adminSideMenuItems = {
 
         };
     },
-    template:__webpack_require__(82)          
+    template:__webpack_require__(83)          
 };
 
 adminSideMenuItems.$inject = ['$rootScope'];
@@ -2400,13 +2401,13 @@ angular.module('my-angular-components').component('adminSideMenuItems', adminSid
 
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports) {
 
 module.exports = "<li class=\"sidebar-list\" ng-repeat=\"item in vm.menuItems\">\r\n    <a ui-sref=\"{{item.state}}\" ng-if=\"vm.showItem(item)\">{{item.linkText}}\r\n        <span class=\"menu-icon fa fa-{{item.icon}}\"></span>\r\n    </a>\r\n</li>"
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myModalButtons = {
@@ -2435,20 +2436,20 @@ var myModalButtons = {
         };
 
     },
-    template:__webpack_require__(84)          
+    template:__webpack_require__(85)          
 };
 
 angular.module('my-angular-components').component('myModalButtons', myModalButtons);
 
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='modal-footer'>\r\n    <span>\r\n    <!--Save Button-->\r\n    <button class='btn btn-primary btn-large pull-left'\r\n            ng-if='vm.saveVisible'\r\n            id='save'\r\n            ng-click='vm.save()'\r\n            type='submit'>{{vm.saveText}}</button>\r\n    <!--Close Button-->\r\n    <button class='btn btn-default pull-left'\r\n            ng-if='vm.closeVisible'\r\n            id='close'\r\n            ng-click='vm.close()'\r\n            type='button'>{{vm.closeText}}</button>\r\n  </span>\r\n</div>\r\n"
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 //Todo: Allow customize header size
@@ -2469,7 +2470,7 @@ var myModalHeader = {
 
 
     },
-    template:__webpack_require__(86)    
+    template:__webpack_require__(87)    
 };
 
 
@@ -2477,13 +2478,13 @@ var app = angular.module('my-angular-components').component('myModalHeader', myM
 
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='modal-header' id='vm.id'>\r\n    <h3 class='modal-title'>{{vm.title}}</h3>\r\n</div>\r\n"
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myInfoPanel = {
@@ -2519,7 +2520,7 @@ var myInfoPanel = {
 
         
     },
-    template:__webpack_require__(88)  
+    template:__webpack_require__(89)  
 };
 
 
@@ -2527,13 +2528,13 @@ angular.module('my-angular-components').component('myInfoPanel', myInfoPanel);
 
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='well' style=\"{{vm.getStyle()}}\">\r\n    <i class='vm.getIcon()'></i> {{vm.infoText}}\r\n    <ul class='on-page-nav'></ul>\r\n</div>\r\n"
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myMoreLessButton = {
@@ -2572,20 +2573,20 @@ var myMoreLessButton = {
             }
         };
     },
-    template:__webpack_require__(90)      
+    template:__webpack_require__(91)      
 };
 
 angular.module('my-angular-components').component('myMoreLessButton', myMoreLessButton);
 
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports) {
 
 module.exports = "<button type='button' class='{{vm.cssClass}' id=\"{{vm.id}}\" ng-click='vm.isCollapsed = !vm.isCollapsed'>\r\n<!--icon -->\r\n<i ng-class='vm.getButtonIcon()' aria-hidden='true'></i>\r\n<!--button text-->\r\n{{vm.getButtonText() }} \r\n</button>\r\n"
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myMorelessPanel = {
@@ -2667,7 +2668,7 @@ var myMorelessPanel = {
 
 
     },
-    template:__webpack_require__(92)      
+    template:__webpack_require__(93)      
 };
 
 
@@ -2675,13 +2676,13 @@ angular.module('my-angular-components').component("myMorelessPanel", myMorelessP
 
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports) {
 
 module.exports = "<div uib-collapse=\"vm.isCollapsed\">\r\n    <div class='panel-body' ng-transclude></div>\r\n</div>\r\n<button type=\"button\" class=\"btn btn-default\" ng-click=\"vm.isCollapsed = !vm.isCollapsed\">{{vm.getButtonText()}}</button>\r\n"
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myPanel = {
@@ -2768,20 +2769,20 @@ var myPanel = {
 
 
     },
-    template:__webpack_require__(94)      
+    template:__webpack_require__(95)      
 };
 
 
 angular.module('my-angular-components').component('myPanel', myPanel);
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='panel panel-{{vm.theme}}' ng-style='{{vm.getPanelStyle()}}'>\r\n    <!--Header-->\r\n    <div class='panel-heading' ng-style='{{vm.getPanelHeadingStyle()}}' id='{{vm.fieldName}}'><i class='fa fa-glyphicon glyphicon-plus'></i>\r\n        <!--Title-->\r\n        <span style='padding-left: 10px; font-weight: 700' ng-style='{{vm.getTitleStyle()}}'>{{vm.title}}</span>\r\n        <!--Add BUtton-->\r\n        <div ng-show='vm.showAddButton' id='{{vm.addButtonId}}' ng-click='vm.add()' ng-style='{{vm.getButtonStyle()}}' class='btn btn-default pull-right'\r\n            style='padding: 3px;'><i class='glyphicon glyphicon-plus'></i> </div>\r\n        <!--Edit BUtton-->\r\n        <div ng-show='vm.showEditButton' id='{{vm.editButtonId}}' ng-click='vm.edit()' ng-style='{{vm.getButtonStyle()}}' class='btn btn-default pull-right'\r\n            style='padding: 3px;'><i class='glyphicon glyphicon-plus'></i> </div>\r\n    </div>\r\n    <!--Content-->\r\n    <div class='panel-body' ng-transclude ng-style='{{vm.getPanelContentStyle()}}'></div>\r\n    <!--Footer-->\r\n    <div class='panel-footer' ng-if='vm.showFooter' ng-style='{{vm.getPanelStyle()}}'>\r\n        <div class='row'>\r\n            <div class='col-md-6'><span class='pull-left'>{{vm.footerLeftLabel}}</span></div>\r\n            <div class='col-md-6'><span class='pull-right'>{{vm.footerRightLabel}}</span></div>\r\n        </div>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var myStatusAlert = {
@@ -2831,7 +2832,7 @@ var myStatusAlert = {
 
 
     },
-    template:__webpack_require__(96)      
+    template:__webpack_require__(97)      
 };
 
 
@@ -2839,7 +2840,7 @@ angular.module('my-angular-components').component('myStatusAlert', myStatusAlert
 
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"{{vm.getClass()}}\" >\r\n    \r\n    <div>\r\n        <i class='{{vm.getIcon()}}'></i>\r\n         {{vm.getMessage()}}\r\n        <div style=\"font-size:0.9em\">qwewqe</div>\r\n    </div>\r\n</div>\r\n"
