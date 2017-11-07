@@ -6,9 +6,10 @@ module.exports = {
 	context: path.resolve('js'),
 	entry: {		
 		app: './appEntry.js',
+		lib: './libEntry.js',
 	},
 	output: {
-		publicPath: '/public/assets/',
+		publicPath: '/public/',
 		filename: "[name]Bundle.js"
 	},
 	devServer: {
