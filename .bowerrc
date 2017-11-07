@@ -1,0 +1,10 @@
+{
+    "directory": "bower_components",
+     "registry": 
+     {"search": ["https://seamusjunior:Eastwood44@www.myget.org/F/my-angular-components/bower/",
+     "http://bower.herokuapp.com"]},
+    "scripts": {
+        "postinstall": "gulp wiredep"
+    }    
+}
+		
