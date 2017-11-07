@@ -18,7 +18,7 @@ var mainLayout = {
       state: 'lookupLists',
       linkText: 'Lookup Lists',
       icon: 'cogs',
-      requiresLogin: true
+      requiresLogin: false
     }];
 
 

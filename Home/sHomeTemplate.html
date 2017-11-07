@@ -1,0 +1,11 @@
+
+<my-page-title>Volunteers</my-page-title>
+
+<my-panel title="">
+    <div class="btn btn-info" ng-csv="vm.getItems()" 
+                         csv-header="vm.headers" 
+                        filename="{{vm.getFileName()}}"><i class="fa fa-excel"></i>Export</div>
+
+     <contacts-list contacts="vm.volunteers" parent-type="Volunteer" show-pager="true"  show-count="true" show-buttons="true" show-filter="true" edit-mode="true"></contacts-list>
+</my-panel>
+

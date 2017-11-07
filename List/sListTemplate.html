@@ -1,0 +1,46 @@
+<my-panel title="Tags" show-add-button="true" add="vm.create()" style="success" icon="tags" icon-size="2">
+
+<my-filter-textbox  ng-model="filter"></my-filter-textbox>
+
+<table class="table table-striped">
+   <thead>
+        <tr>
+             
+               <th> First Name </th>
+             
+               <th> Last Name </th>
+             
+               <th> Options </th>
+             
+               <th> Age </th>
+             
+               <th> Registration Date </th>
+             
+        </tr>
+    </thead>
+
+    <tr dir-paginate=' in vm. | filter:vm.contactFilters.textFilter   |itemsPerPage: vm.pageSize  track by $index'>
+
+        
+             <td>{{ .FirstName   }}</td>
+        
+             <td>{{ .LastName   }}</td>
+        
+             <td>{{ .Options   }}</td>
+        
+             <td>{{ .Age   }}</td>
+        
+             <td>{{ .RegistrationDate   }}</td>
+        
+            
+            <td ng-if="vm.showButtons"> 
+            <span ng-if="vm.editMode"> 
+                <my-button preset="details" click="vm.details({: })"></my-button> 
+                <my-button preset="details" click="vm.details({: })"></my-button> 
+                <my-button preset="delete" click="vm.delete({: })"></my-button> 
+            </span>            
+        </td> 
+    </tr>
+</table>
+
+<dir-pagination-controls  boundary-links="true"></dir-pagination-controls>
