@@ -4,7 +4,7 @@ var main = {
     var vm = this;
     vm.isAuthenticated = $rootScope.isAuthenticated;
   },
-  templateUrl: 'src/client/Features/Home/Components/Main/_mainTemplate.html'
+  template: require('raw-loader!./homeTemplate.html')
 };
 
 angular.module("app").component("main", main);

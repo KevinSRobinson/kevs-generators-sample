@@ -3,7 +3,7 @@ var mainLayout = {
     allowChanges: '@'
   },
   controllerAs: 'vm',
-  template: require('raw-loader!./mainLayoutTemplate.html'),
+  template: require('raw-loader!./mainLayoutTemplate.html'),  
   controller: function () {
     var vm = this;
 
@@ -18,7 +18,7 @@ var mainLayout = {
       state: 'lookupLists',
       linkText: 'Lookup Lists',
       icon: 'cogs',
-      requiresLogin: false
+      requiresLogin: true
     }];
 
 

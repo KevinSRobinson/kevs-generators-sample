@@ -1,6 +1,7 @@
 var sHome = {
     controllerAs: "vm",
     templateUrl: 'sHome.Html',
+    
     controller: function () {
         var vm = this;
         vm.s = [];
