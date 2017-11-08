@@ -9,6 +9,8 @@ var mainLayout = {
 
     vm.userName = 'Test Username';
 
+    
+
     vm.sideMenuItems = [{
       state: 'login',
       linkText: 'Login',

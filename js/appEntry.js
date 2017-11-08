@@ -1,6 +1,7 @@
 require('./Client/app.base.js');
 require('./Client/app.config.js');
-require('./Client/app.run.js');
+
+
 require('./Client/routes');
 
 
