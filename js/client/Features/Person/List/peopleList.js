@@ -19,7 +19,9 @@ controller: function ($state, peopleDataService, peopleModelService) {
     vm.loadpeoples = function(){
         var peoplePromise= peopleDataService.GetAll();
         peoplePromise.then(function(response){
-	     vm.people = response.data;
+          
+         vm.people = response.data.data;
+         console.log(vm.people);
         }).catch(function(error){
 	        vm.error = error;
         })
