@@ -29,7 +29,7 @@ controller: 'deletePersonController',
 
 var modify = function(person) {
 return $uibModal.open({
-	template: deleteTemplate,
+	template: modifyTemplate,
 controller: 'createUpdatePersonModalController',
 	controllerAs: 'vm',
 	resolve: {

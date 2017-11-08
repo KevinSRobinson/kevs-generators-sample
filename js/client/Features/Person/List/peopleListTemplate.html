@@ -35,7 +35,8 @@
             
             <td ng-if="vm.showButtons"> 
             <span ng-if="vm.editMode"> 
-                <my-button preset="details" click="vm.details({person: person})"></my-button> 
+                <my-button preset="edit" click="vm.edit({person: person})"></my-button> 
+                
                 <my-button preset="details" click="vm.details({person: person})"></my-button> 
                 <my-button preset="delete" click="vm.delete({person: person})"></my-button> 
             </span>            

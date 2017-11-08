@@ -1,6 +1,6 @@
 var peopleDataService = function($http, apiBase) {
 	
-    apiBase += "/people/";
+    apiBase += "/people";
 
     var getAll = function(){
 		return $http.get(apiBase);

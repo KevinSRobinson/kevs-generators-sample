@@ -18,3 +18,5 @@ require('./Client/Features/Person/Fields/personfields');
 require('./Client/Features/Person/Details/personDetails');
 require('./Client/Features/Person/PersondataService');
 require('./Client/Features/Person/Modals/Services/ServicesController.js');
+require('./Client/Features/Person/Modals/CreateUpdate/createUpdatePersonController.js');
+require('./Client/Features/Person/Modals/Delete/deletePersonModalController.js');
