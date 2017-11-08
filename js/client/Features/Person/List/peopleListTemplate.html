@@ -1,7 +1,7 @@
 <my-panel title="Tags" show-add-button="true" add="vm.create()" style="success" icon="tags" icon-size="2">
 
 <my-filter-textbox  ng-model="filter"></my-filter-textbox>
-{{vm.people}}
+
 <table class="table table-striped">
    <thead>
         <tr>
@@ -22,9 +22,9 @@
     <tr dir-paginate='person in vm.people | filter:vm.contactFilters.textFilter   |itemsPerPage: vm.pageSize  track by $index'>
 
         
-             <td>{{ person.firstName   }}</td>
+             <td>{{ person.FirstName   }}</td>
         
-             <td>{{ person.lastName   }}</td>
+             <td>{{ person.LastName   }}</td>
         
              <td>{{ person.Options   }}</td>
         

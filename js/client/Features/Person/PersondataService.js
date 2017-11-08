@@ -1,18 +1,17 @@
 var peopleDataService = function($http, apiBase) {
 	
-    peopleApiBase = apiBase +  "/people";
+    apiBase += "/people/";
 
     var getAll = function(){
-        console.log('peopleApiBase = ' + peopleApiBase);
-		return $http.get(peopleApiBase);
+		return $http.get(apiBase);
 	};
 
     var getById = function(id) {
-		return $http.get(peopleApiBase + '/' + id);
+		return $http.get(apiBase + id);
 	};
 
     var create = function(person) {
-        return $http.put(peopleApiBase + + '/' + person._id, person);
+        return $http.put(apiBase + person._id, person);
     };    
 
     var modify = function(person) {

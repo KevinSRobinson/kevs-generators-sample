@@ -2,7 +2,7 @@
   window.__env = window.__env || {};
 
   // API url
-  window.__env.apiBase = 'http://demo2340335.mockable.io/people/';
+  window.__env.apiBase = 'http://localhost:7265/api/';
 
   // Base url
   window.__env.baseUrl = '/';
