@@ -16,5 +16,5 @@ require('./Client/Features/Person/Home/peopleHome');
 require('./Client/Features/Person/List/peopleList');
 require('./Client/Features/Person/Fields/personfields');
 require('./Client/Features/Person/Details/personDetails');
-require('./Client/Features/Person/Modals/Services/ServicesController');
-require('./Client/Features/Person/persondataService');
+require('./Client/Features/Person/PersondataService');
+require('./Client/Features/Person/Modals/Services/ServicesController.js');
