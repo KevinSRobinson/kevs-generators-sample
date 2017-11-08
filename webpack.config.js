@@ -13,7 +13,7 @@ module.exports = {
 		filename: "[name]Bundle.js"
 	},
 	devServer: {
-		contentBase: 'public',		
+		contentBase: 'public'
 	},
 	// plugins: [
 	// 	new HtmlWebpackPlugin({

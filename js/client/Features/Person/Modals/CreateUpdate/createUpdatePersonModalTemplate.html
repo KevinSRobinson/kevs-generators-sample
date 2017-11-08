@@ -1,0 +1,32 @@
+<my-modal-header title="Create Person"></my-modal-header>
+<div class="modal-body">
+  
+    <td>
+      <my-input-field field-label='First Name' ng-model='vm.person.FirstName'  
+          ></my-input-field>
+    </td>
+    
+    <td>
+      <my-input-field field-label='Last Name' ng-model='vm.person.LastName'  
+          ></my-input-field>
+    </td>
+    
+    <td>
+      <my-input-field field-label='Options' ng-model='vm.person.Options'  
+          
+            input-type='select'
+            ></my-input-field>
+    </td>
+    
+    <td>
+      <my-input-field field-label='Age' ng-model='vm.person.Age'  
+          ></my-input-field>
+    </td>
+    
+    <td>
+      <my-input-field field-label='Registration Date' ng-model='vm.person.RegistrationDate'   input-type='datepopup' 
+          ></my-input-field>
+    </td>
+    
+</div>
+<my-modal-buttons close="vm.close()" save="vm.save()"></my-modal-buttons>

@@ -20,8 +20,15 @@ var mainLayout = {
       state: 'lookupLists',
       linkText: 'Lookup Lists',
       icon: 'cogs',
-      requiresLogin: true
-    }];
+      requiresLogin: false
+    },
+    {
+      state: 'people',
+      linkText: 'People',
+      icon: 'cogs',
+      requiresLogin: false
+    }
+  ];
 
 
     vm.userMenuItems = [{

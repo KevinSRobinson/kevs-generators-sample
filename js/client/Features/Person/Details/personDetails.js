@@ -3,7 +3,7 @@ var personDetails = {
         allowChanges: '@'
     },
     controllerAs: "vm",
-    templateUrl: './src/Client/Features/Person/Components/Details/personDetailsTemplate.Html',
+    template: require('raw-loader!./personDetailsTemplate.Html'),
     controller: function (peopleDataService, __AppConfig,  $stateParams) {
         var vm = this;
         vm.id = $stateParams.id;

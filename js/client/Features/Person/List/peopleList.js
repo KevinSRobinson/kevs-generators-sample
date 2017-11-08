@@ -3,7 +3,7 @@ bindings: {
 	allowChanges: '@'
 },
 controllerAs: 'vm',
-templateUrl: './src/Client/Features/Person/Components/List/peopleListTemplate.html',
+template: require('raw-loader!./peopleListTemplate.html'),
 controller: function ($state, peopleDataService, peopleModelService) {
     var vm = this;
     vm.error = {};

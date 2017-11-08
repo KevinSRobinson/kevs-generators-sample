@@ -9,7 +9,8 @@
   }
 
 
-  var app = angular.module('app', ['ui.router', 'ui.bootstrap', 'angularUtils.directives.dirPagination', 'my-angular-components'  
+  var app = angular.module('app', ['ui.router', 'ui.bootstrap', 'angularUtils.directives.dirPagination', 'my-angular-components', 
+    
     ]);
 
   //add the enviornment as a constant
